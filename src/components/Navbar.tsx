@@ -28,7 +28,7 @@ const Navbar = ({ className }: { className?: string }) => {
                     </div>
                 </MenuItem>
 
-                <Link href={"/contanct"}>
+                <Link href={"/contact"}>
                     <MenuItem setActive={setActive} active={active} item="Contact Us"> 
                     </MenuItem>
                 </Link>
